@@ -4,4 +4,6 @@ html, body, #app{
     margin: 0;
     padding: 0;
     background-attachment: fixed;
+    font-size: 10px;
+    scroll-behavior: smooth;
 }

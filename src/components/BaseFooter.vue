@@ -11,6 +11,7 @@ export default {
 
 <style>
 #footer{
-  height: 100vh;
+  background-color: rgb(48, 56, 65);
+  color: white;
 }
 </style>
