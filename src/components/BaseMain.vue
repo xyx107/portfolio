@@ -30,58 +30,11 @@
             <span class="code">&#47;&gt;</span>
           </p>
         </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
-        <a href="">
-          <img src="../assets/imgs/blog.png" alt="">
-          <p></p>
-        </a>
     </div>
     <div class="btn-show">
-      <a href="" class="btn" target="_blank">Show all </a>
       <i class="el-icon-share"></i>
+      <a href="" class="btn" target="_blank">Show all </a>
+      
     </div>
   </div>
 </template>
@@ -145,11 +98,10 @@ export default {
     font-size: 1.92rem;
 
     i{
-      margin-left: 30px;
       width: 20px;
       height: 20px;
-      transform: translateX(0);
-      transition: transform 0.3s ease-out;
+      // transform: translateX(0);
+      // transition: transform 0.3s ease-out;
     }
     :hover i{
       transform: translateX(2px);
