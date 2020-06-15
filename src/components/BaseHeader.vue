@@ -1,10 +1,13 @@
 <template>
-  <div >
-      <div id="header">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="header">
+    <div id="nav">
+      <a href="#header">About</a> |
+      <a href="#main">Work</a> |
+      <a href="#footer">Contact</a>
     </div>
-    <!-- <router-view/> -->
+    <div class="title">
+        Hey I am Weiran You 
+    </div>
   </div>
 </template>
 
@@ -16,11 +19,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#header {
-  background-color: #000;
+#header{
+  
+}
+#nav {
+  position: fixed;
+  background-color: rgb(190, 49, 68);
   padding: 30px;
-
+  width: 100%;
   a {
+    font-size: 2.1rem;
     font-weight: bold;
     color: #2c3e50;
 
@@ -28,5 +36,8 @@ export default {
       color: #42b983;
     }
   }
+}
+.title{
+  padding-top: 300px;
 }
 </style>
