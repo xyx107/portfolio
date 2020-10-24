@@ -7,9 +7,8 @@
 </template>
 
 <script>
-
 export default {
-  name: 'Home',
+  name: 'Layout',
   components: {
 
   }
@@ -18,16 +17,17 @@ export default {
 
 <style lang="scss" scoped>
 #home{
-  height: 100vh;
+  // height: 100vh;
 }
 .header{
   height: 100vh;
-  background-color: rgb(48, 56, 65);
 }
 .main{
-  background-color: rgb(69, 86, 125);
+  // position: absolute;
+  height: 100vh;
 }
 .footer{
-  height: 80vh;
+  // position: absolute;
+  height: 90vh;
 }
 </style>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+</head>
+<body>
+<div id="dear"></div>
+<script>
+    var writeContent = 'DengYanBo I Love You Forver';//要书写的内容
+    var  displayContent = $('#dear');//展示书写文字的容器
+    var index = 0;//索引
+    var length = writeContent.length;//书写内容的长度
+    var tiemerName = null;//定时器的名字
+    function start(){
+        displayContent.text('');//清空展示容器的内容
+        tiemerName=setInterval(function(){
+            displayContent.append(writeContent.charAt(index));//charAt返回指定所应出的字符；
+            if(index++ === length){//如果写道最后一个字符了，清除定时器，从第一个字符重新开始写；
+                clearInterval(tiemerName);//清除定时器
+                index = 0;
+                start()//回调，自己调用自己
+            }
+        },100);
+    }
+    start();
+
+</script>
+</body>
+</html>
